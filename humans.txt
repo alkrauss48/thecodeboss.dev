@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    /* <name> -- <role> -- <twitter> -- <location> */
+    /* <Aaron Krauss> -- <Developer> -- <@thecodeboss> -- <Oklahoma City, OK, USA> */
+
+# THANKS
+
+    /* <thecodeboss> */
+
+# TECHNOLOGY COLOPHON
+
+    /* Wordpress, Docker, Webpack, HTML, Sass, JS, and more  */
