@@ -2,6 +2,7 @@ tmp
 backups
 app/*
 !app/wp-content
+!app/assets
 
 app/wp-content/*
 !app/wp-content/plugins
@@ -10,8 +11,7 @@ app/wp-content/*
 app/wp-content/plugins/*
 !app/wp-content/plugins/.gitkeep
 
-app/wp-content/themes/*
-!app/wp-content/themes/.gitkeep
+app/wp-content/themes/twenty*/
 
 # # ignore everything in the root except the "wp-content" directory.
 # !wp-content

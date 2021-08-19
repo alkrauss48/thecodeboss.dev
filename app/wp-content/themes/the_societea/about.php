@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<div id="about" class="content-area">
     <main id="main" class="site-main scene_element scene_element--fadein" role="main">
-<div 
+<div
   data-bottom-top="background-position: 50% 60%;"
   data-top-bottom="background-position: 50% 40%;"
   id="slide1" class="slide" style="background-image: url('/assets/images/dist/ak-satisfied.jpg');">
