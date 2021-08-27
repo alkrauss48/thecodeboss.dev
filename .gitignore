@@ -1,5 +1,6 @@
 tmp
 backups
+db
 app/*
 !app/wp-content
 !app/assets
