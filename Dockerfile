@@ -2,7 +2,9 @@ FROM wordpress:latest
 
 WORKDIR /var/www/html
 
-COPY ./app ./
+COPY ./dist ./dist
+
+COPY ./src/theme ./wp-content/themes/the_societea
 
 RUN set -x \
     && cd "$PHP_INI_DIR" \

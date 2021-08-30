@@ -20,7 +20,6 @@ services:
     # image: wordpress:latest
     build: .
     volumes:
-      - ./app:/var/www/html
       - ./src/theme:/var/www/html/wp-content/themes/the_societea
       - ./dist:/var/www/html/dist
       - ./wordpress/uploads:/var/www/html/wp-content/uploads
