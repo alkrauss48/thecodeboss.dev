@@ -2,18 +2,18 @@
 
 let mix = require('laravel-mix');
 
-mix.sass('src/sass/app.scss', 'app/dist')
+mix.sass('src/sass/app.scss', 'dist')
     .combine([
             'src/js/globals/*',
             'src/js/vendor/*',
             'src/js/lib/*',
         ],
-        'app/dist/app.js',
+        'dist/app.js',
     )
-    .copy('src/fonts', 'app/dist/fonts')
-    .copy('src/documents', 'app/dist/documents')
-    .copy('src/images', 'app/dist/images')
-    .copy('src/artifacts', 'app/dist')
+    .copy('src/fonts', 'dist/fonts')
+    .copy('src/documents', 'dist/documents')
+    .copy('src/images', 'dist/images')
+    .copy('src/artifacts', 'dist')
     .options({
         processCssUrls: false
     });

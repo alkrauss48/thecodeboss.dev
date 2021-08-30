@@ -3,6 +3,7 @@ backups
 db
 node_modules
 wordpress
+dist
 app/*
 !app/wp-content
 
