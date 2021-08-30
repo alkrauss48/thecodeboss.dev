@@ -1,6 +1,7 @@
 tmp
 backups
 db
+node_modules
 app/*
 !app/wp-content
 !app/assets

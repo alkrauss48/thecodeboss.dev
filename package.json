@@ -1,0 +1,19 @@
+{
+  "name": "thecodeboss",
+  "version": "1.0.0",
+  "description": "thecodeboss.dev ===",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+      "build": "npx mix"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.28",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.38.2",
+    "sass-loader": "^12.1.0",
+    "susy": "^2.2.14"
+  }
+}
