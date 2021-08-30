@@ -4,7 +4,6 @@ db
 node_modules
 app/*
 !app/wp-content
-!app/assets
 
 app/wp-content/*
 !app/wp-content/plugins

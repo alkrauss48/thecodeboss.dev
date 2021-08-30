@@ -21,6 +21,7 @@ services:
     build: .
     volumes:
       - ./app:/var/www/html
+      - ./src/theme:/var/www/html/wp-content/themes/the_societea
     ports:
       - "8000:80"
     restart: always
