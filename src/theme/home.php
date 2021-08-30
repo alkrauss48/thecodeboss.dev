@@ -66,7 +66,7 @@ get_header(); ?>
           <a href="https://www.youtube.com/c/Techlahoma/search?query=Aaron+Krauss" target="_blank" class="home-popular-list popular-item-2">
             <span>Techlahoma's YouTube</span>
           </a>
-          <a href="https://thesocietea.org/2016/07/my-interviews-with-amazon/" class="home-popular-list popular-item-3">
+          <a href="/2016/07/my-interviews-with-amazon/" class="home-popular-list popular-item-3">
             <span>My Interviews with Amazon</span>
           </a>
         </div>
