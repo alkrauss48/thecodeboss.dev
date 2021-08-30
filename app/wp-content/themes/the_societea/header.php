@@ -50,7 +50,8 @@
     <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/css/screen.css">
+    <!-- <link rel="stylesheet" href="/assets/css/screen.css"> -->
+    <link rel="stylesheet" href="/dist/app.css">
     <script src="/assets/js/lib/modernizr-2.7.1.min.js"></script>
     <!--[if lt IE 9]>
       <script src="/assets/js/ie/selectivizr-min.js"></script>
