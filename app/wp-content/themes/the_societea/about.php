@@ -10,7 +10,7 @@ get_header(); ?>
 <div
   data-bottom-top="background-position: 50% 60%;"
   data-top-bottom="background-position: 50% 40%;"
-  id="slide1" class="slide" style="background-image: url('/assets/images/dist/ak-satisfied.jpg');">
+  id="slide1" class="slide" style="background-image: url('/dist/images/ak-satisfied.jpg');">
   <div class="container">
     <div class="content">
         <h1
@@ -38,7 +38,7 @@ get_header(); ?>
     </div>
   </div>
 </div>
-<!-- <div id="slide2" class="slide"  style="background&#45;image: url('/assets/images/dist/stockvault&#45;morning&#45;pier&#45;semisarahcom134386.jpg');"> -->
+<!-- <div id="slide2" class="slide"  style="background&#45;image: url('/dist/images/stockvault&#45;morning&#45;pier&#45;semisarahcom134386.jpg');"> -->
 <div id="slide2" class="slide">
   <div class="container">
     <div class="content">
@@ -51,7 +51,7 @@ get_header(); ?>
     </div>
   </div>
 </div>
-<div id="slide3" class="slide"  style="background-image: url('/assets/images/dist/ak-watches.jpg');"
+<div id="slide3" class="slide"  style="background-image: url('/dist/images/ak-watches.jpg');"
   data-bottom-top="background-position: 50% 60%;"
   data-top-bottom="background-position: 50% 40%;"
 >
@@ -121,7 +121,7 @@ I likely have some sort of experience with it.
 </div>
 
 </div>
-<div id="slide4" class="slide"  style="background-image: url('/assets/images/dist/Krauss-Carsyn-Abrams-Photography2-465-optimized.jpg');"
+<div id="slide4" class="slide"  style="background-image: url('/dist/images/Krauss-Carsyn-Abrams-Photography2-465-optimized.jpg');"
   data-bottom-top="background-position: 50% 50%;"
   data-top-bottom="background-position: 50% 10%;"
 >
@@ -131,7 +131,7 @@ I likely have some sort of experience with it.
 ></div>
 
 </div>
-<div id="slide5" class="slide"  style="background-image: url('/assets/images/dist/jackson-large.jpg');"
+<div id="slide5" class="slide"  style="background-image: url('/dist/images/jackson-large.jpg');"
   data-bottom-top="background-position: 50% 60%;"
   data-top-bottom="background-position: 50% 40%;"
 >
@@ -158,7 +158,7 @@ are Japanese greens and Chinese oolongs, but I like to brew anything as long as 
 We've got a dutch shepherd and a samoyed, and they're a big part of what makes our house a home.
 No matter how old they get, they always play like puppies together.</p>
       </div>
-      <img class="left" src="/assets/images/dist/luna.jpg" alt=""
+      <img class="left" src="/dist/images/luna.jpg" alt=""
         data-3800="opacity: 0;top: -8em; left: -8em;transform: rotate(0deg);"
         data-4000="opacity: 1;top: 0em; left: 0em;transform: rotate(-10deg);"
       />
@@ -166,7 +166,7 @@ No matter how old they get, they always play like puppies together.</p>
 </div>
 
 </div>
-<div id="slide6" class="slide"  style="background-image: url('/assets/images/dist/Krauss-Carsyn-Abrams-Photography2-92.jpg');"
+<div id="slide6" class="slide"  style="background-image: url('/dist/images/Krauss-Carsyn-Abrams-Photography2-92.jpg');"
   data-bottom-top="background-position: 50% 50%;"
   data-top-bottom="background-position: 50% 10%;"
 >
@@ -203,7 +203,7 @@ It may take me 10 minutes to make a drink, but you can bet it'll be made right!
           She's the sweetest, most thoughtful and honest person I know. I can't imagine a life without her. I love her, and
           she’s an incredibly talented dietitian too!</p>
       </div>
-      <img class="right" src="/assets/images/dist/Aaron-Layla-Carsyn-Abrams-Photography-35.jpg" alt=""
+      <img class="right" src="/dist/images/Aaron-Layla-Carsyn-Abrams-Photography-35.jpg" alt=""
         data-4700="opacity: 0;top: -8em; left: 8em;transform: rotate(0deg);"
         data-4900="opacity: 1;top: 0em; left: 0em;transform: rotate(10deg);"
       />
@@ -224,7 +224,7 @@ It may take me 10 minutes to make a drink, but you can bet it'll be made right!
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <div id="about-responsive">
-  <div class="subpage-header-image" style="background-image: url('/assets/images/dist/golden-hill.jpg'); ?>');"
+  <div class="subpage-header-image" style="background-image: url('/dist/images/golden-hill.jpg'); ?>');"
     data-start="background-position: 50% 55%;"
     data-400="background-position: 50% 45%;"
   ></div>

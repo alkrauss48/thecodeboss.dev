@@ -12,6 +12,8 @@ mix.sass('src/sass/app.scss', 'app/dist')
     )
     .copy('src/fonts', 'app/dist/fonts')
     .copy('src/documents', 'app/dist/documents')
+    .copy('src/images', 'app/dist/images')
+    .copy('src/artifacts', 'app/dist')
     .options({
         processCssUrls: false
     });

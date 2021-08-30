@@ -121,7 +121,7 @@ function setUpInfiniteScroll() {
     itemSelector : ".blog-item",
     loading: {
       finishedMsg: "That's it!",
-      img: "/assets/images/dist/loading-squares.gif",
+      img: "/dist/images/loading-squares.gif",
       msgText: ""
     }
   }, function(newElements) {

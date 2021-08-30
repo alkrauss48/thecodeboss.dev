@@ -21,7 +21,7 @@
 
     <meta name="description" content="<?php the_post();echo get_the_excerpt(); ?>">
     <meta property="og:description" content="<?php echo get_the_excerpt(); ?>">
-    <?php $og_image = CFS()->get('og_image') ? CFS()->get('og_image') : "https://thesocietea.org/assets/images/dist/ak-smile-optimized.jpg"; ?>
+    <?php $og_image = CFS()->get('og_image') ? CFS()->get('og_image') : "https://thesocietea.org/dist/images/ak-ogimage.png"; ?>
     <meta property="og:image" content="<?php echo $og_image; ?>">
     <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); ?>">
     <meta property="og:type" content="website" />
@@ -31,32 +31,28 @@
     <meta name="twitter:creator" content="@thecodeboss" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
 
-    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-touch-icon-152x152.png">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-196x196.png" sizes="196x196">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-160x160.png" sizes="160x160">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="shortcut icon" href="/dist/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/dist/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/dist/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/dist/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/dist/images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/dist/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/dist/images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/dist/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/dist/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/dist/images/favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="/dist/images/favicon/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/dist/images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/dist/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/dist/images/favicon/favicon-32x32.png" sizes="32x32">
     <meta name="msapplication-TileColor" content="#2d89ef">
-    <meta name="msapplication-TileImage" content="/assets/images/favicon/mstile-144x144.png">
-    <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+    <meta name="msapplication-TileImage" content="/dist/images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/dist/images/favicon/browserconfig.xml">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/dist/app.css">
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-        integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-    ></script>
+
+    <script src="/dist/modernizr-2.7.1.min.js" type="text/javascript" charset="utf-8"></script>
 
     <?php if (is_singular('post')): ?>
       <!-- AdSense Config -->
@@ -80,7 +76,7 @@
       <div class="container-padding">
         <div class="container">
           <a href="/">
-            <img src="/assets/images/dist/ak_logo_trimmed.png" alt="The Code Boss - Home" />
+            <img src="/dist/images/ak_logo_trimmed.png" alt="The Code Boss - Home" />
           </a>
           <div class="nav-wrapper" id="navigation">
             <nav class="nav">

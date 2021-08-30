@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
  * Template Name: Home
  *
@@ -46,7 +46,7 @@ get_header(); ?>
         <div class="container-padding">
           <div class="container">
             <div class="home-picture">
-              <img src="/assets/images/dist/ak-smile-optimized.jpg" alt="Aaron Krauss" />
+              <img src="/dist/images/ak-smile-optimized.jpg" alt="Aaron Krauss" />
             </div>
             <div class="home-about-desc">
               <h2>Get to know me</h2>
@@ -91,5 +91,5 @@ get_header(); ?>
         <a class="orange-learn-more" href="<?php echo get_permalink(13); ?>">See My Skills <i class="icon2-play"></i></a>
       </div>
     </div>
-  <script src="/assets/js/lib/three.min.js"type="text/javascript" charset="utf-8"></script>
+  <script src="/dist/three.min.js"type="text/javascript" charset="utf-8"></script>
 <?php get_footer(); ?>
