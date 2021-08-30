@@ -28,7 +28,7 @@
     </div>
     </footer>
 
-    <script src="/assets/js/min/scripts.min.js"></script>
+    <script src="/dist/app.js"></script>
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-38589428-1', 'thecodeboss.dev');
@@ -36,6 +36,5 @@
       ga('send', 'pageview');
     </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <script async src='/assets/js/autotrack.js'></script>
   </body>
 </html>

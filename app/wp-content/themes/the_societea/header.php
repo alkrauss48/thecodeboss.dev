@@ -50,12 +50,13 @@
     <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
-    <!-- <link rel="stylesheet" href="/assets/css/screen.css"> -->
     <link rel="stylesheet" href="/dist/app.css">
-    <script src="/assets/js/lib/modernizr-2.7.1.min.js"></script>
-    <!--[if lt IE 9]>
-      <script src="/assets/js/ie/selectivizr-min.js"></script>
-    <![endif]-->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+        integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
 
     <?php if (is_singular('post')): ?>
       <!-- AdSense Config -->

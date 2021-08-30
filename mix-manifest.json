@@ -1,5 +1,6 @@
 {
     "/app/dist/app.css": "/app/dist/app.css",
+    "/app/dist/app.js": "/app/dist/app.js",
     "/app/dist/fonts/site-main-icons-2.eot": "/app/dist/fonts/site-main-icons-2.eot",
     "/app/dist/fonts/site-main-icons-2.svg": "/app/dist/fonts/site-main-icons-2.svg",
     "/app/dist/fonts/site-main-icons-2.ttf": "/app/dist/fonts/site-main-icons-2.ttf",
