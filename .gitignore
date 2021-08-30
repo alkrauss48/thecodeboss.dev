@@ -2,6 +2,7 @@ tmp
 backups
 db
 node_modules
+wordpress
 app/*
 !app/wp-content
 
