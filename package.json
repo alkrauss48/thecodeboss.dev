@@ -7,7 +7,9 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-      "build": "npx mix"
+      "dev": "npx mix",
+      "prod": "npx mix --production",
+      "watch": "npx mix watch"
   },
   "devDependencies": {
     "laravel-mix": "^6.0.28",
