@@ -4,7 +4,7 @@ services:
   db:
     image: mysql:5.7
     volumes:
-      - ./db:/var/lib/mysql
+      - ./volumes/db:/var/lib/mysql
     restart: always
     ports:
       - "3306:3306"
@@ -22,8 +22,8 @@ services:
     volumes:
       - ./src/theme:/var/www/html/wp-content/themes/the_societea
       - ./dist:/var/www/html/dist
-      - ./wordpress/uploads:/var/www/html/wp-content/uploads
-      - ./wordpress/plugins:/var/www/html/wp-content/plugins
+      - ./volumes/wordpress/uploads:/var/www/html/wp-content/uploads
+      - ./volumes/wordpress/plugins:/var/www/html/wp-content/plugins
     ports:
       - "8000:80"
     restart: always
