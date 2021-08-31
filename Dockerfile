@@ -1,19 +1,15 @@
 # Frontend Builder
 FROM node:lts-alpine as node-builder
-
 WORKDIR /app
 
 COPY package.json package-lock.json webpack.mix.js ./
+RUN npm ci
 
 COPY src/ src/
-
-RUN set -x && npm ci
-
-RUN set -x && node_modules/.bin/mix --production
+RUN node_modules/.bin/mix --production
 
 # Final Image
 FROM wordpress:latest
-
 WORKDIR /var/www/html
 
 COPY ./src/theme ./wp-content/themes/the_societea
