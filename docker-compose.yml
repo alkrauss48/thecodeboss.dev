@@ -2,22 +2,26 @@ version: "3.9"
 
 services:
   db:
-    image: mysql:5.7
+    build:
+      context: .
+      dockerfile: docker/db/Dockerfile
     volumes:
       - ./volumes/db:/var/lib/mysql
     restart: always
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: "$DB_ROOT_DATABASE"
+      MYSQL_ROOT_PASSWORD: "$DB_ROOT_PASSWORD"
       MYSQL_DATABASE: "$DB_DATABASE"
-      MYSQL_USER: "$DB_USERNAME"
+      MYSQL_USER: "$DB_USER"
       MYSQL_PASSWORD: "$DB_PASSWORD"
 
   wordpress:
     depends_on:
       - db
-    build: .
+    build:
+      context: .
+      dockerfile: docker/web/Dockerfile
     volumes:
       - ./src/theme:/var/www/html/wp-content/themes/the_societea
       - ./dist:/var/www/html/dist
