@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: docker/db/Dockerfile
+    # image: alkrauss48/thecodeboss.dev-db:latest
     volumes:
       - ./volumes/db:/var/lib/mysql
     restart: always
@@ -17,11 +18,10 @@ services:
       MYSQL_PASSWORD: "$DB_PASSWORD"
 
   wordpress:
-    depends_on:
-      - db
     build:
       context: .
       dockerfile: docker/web/Dockerfile
+    # image: alkrauss48/thecodeboss.dev:latest
     volumes:
       - ./src/theme:/var/www/html/wp-content/themes/the_societea
       - ./volumes/wordpress/uploads:/var/www/html/wp-content/uploads
@@ -37,6 +37,7 @@ services:
     build:
       context: .
       dockerfile: docker/frontend/Dockerfile
+    # image: alkrauss48/thecodeboss.dev-frontend:latest
     ports:
       - "8000:80"
     volumes:
