@@ -1,17 +1,5 @@
-# Frontend Builder
-FROM node:lts-alpine as node-builder
-WORKDIR /app
-
-COPY package.json package-lock.json webpack.mix.js ./
-RUN npm ci
-
-COPY src/ src/
-RUN node_modules/.bin/mix --production
-
 # Final Image
-FROM wordpress:latest
+FROM wordpress:fpm-alpine
 WORKDIR /var/www/html
 
 COPY ./src/theme ./wp-content/themes/the_societea
-
-COPY --from=node-builder --chown=82:82 /app/dist dist/

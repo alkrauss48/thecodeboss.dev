@@ -24,16 +24,25 @@ services:
       dockerfile: docker/web/Dockerfile
     volumes:
       - ./src/theme:/var/www/html/wp-content/themes/the_societea
-      - ./dist:/var/www/html/dist
       - ./volumes/wordpress/uploads:/var/www/html/wp-content/uploads
       - ./volumes/wordpress/plugins:/var/www/html/wp-content/plugins
-    ports:
-      - "8000:80"
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: "$DB_USERNAME"
       WORDPRESS_DB_PASSWORD:  "$DB_PASSWORD"
       WORDPRESS_DB_NAME: "$DB_DATABASE"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend/Dockerfile
+    ports:
+      - "8000:80"
+    volumes:
+      - ./dist:/var/www/html/dist
+      - ./src/theme:/var/www/html/wp-content/themes/the_societea
+      - ./volumes/wordpress/uploads:/var/www/html/wp-content/uploads
+      - ./volumes/wordpress/plugins:/var/www/html/wp-content/plugins
 volumes:
   db:
