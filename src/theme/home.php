@@ -24,8 +24,8 @@ get_header(); ?>
     </div>
     <div class="home-content">
       <div class="container-padding">
-        <h2>Probably the coolest developer you'll ever meet</h2>
-        <h3>I build amazing things all day - every day</h3>
+        <h2>I do a lot of different things</h2>
+        <h3>But learning from and teaching others is what makes me the happiest</h3>
         <div class="home-offerings-wrapper">
           <div class="home-offerings">
             <div class="icon-wrapper"><i class="icon2-keyboard"></i></div>
