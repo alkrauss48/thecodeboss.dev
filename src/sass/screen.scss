@@ -1781,3 +1781,13 @@ h2.home-projects-title {
     width: 130px;
   }
 }
+
+.js-fiddle-icon {
+    position: relative;
+    top: 1px;
+    transition: all $transition-time ease;
+    stroke: white;
+    &:hover, &:focus {
+        stroke: $teal;
+    }
+}
