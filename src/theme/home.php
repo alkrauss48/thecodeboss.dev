@@ -70,7 +70,7 @@ get_header(); ?>
         <div class="down-triangle"></div>
         <h2 class="home-projects-title">This is where you may know me from</h2>
         <div class="container">
-          <a href="https://labs.thesocietea.org/carnegie-chart" target="_blank" class="home-popular-list popular-item-1">
+          <a href="https://labs.thecodeboss.dev/carnegie-chart" target="_blank" class="home-popular-list popular-item-1">
             <span>Dale Carnegie 30-Day Practice Chart</span>
           </a>
           <a href="https://www.youtube.com/c/Techlahoma/search?query=Aaron+Krauss" target="_blank" class="home-popular-list popular-item-2">
