@@ -16,7 +16,7 @@ get_header(); ?>
         <ul class="header-icons">
           <li><a class="icon-github" title="GitHub" target="github" href="https://github.com/alkrauss48"></a></li>
           <li><a class="icon-linkedin" title="LinkedIn" target="linkedin"  href="https://www.linkedin.com/in/alkrauss48/"></a></li>
-          <li><a class="icon-twitter" title="Twitter" target="twitter" href="https://twitter.com/thecodeboss"></a></li>
+          <li><a class="icon-twitter" title="Twitter" target="twitter" href="https://twitter.com/OKCWebdevs"></a></li>
           <li>
             <a title="JSFiddle" target="jsfiddle" href="https://jsfiddle.net/user/thecodeboss/fiddles/">
                 <svg class="js-fiddle-icon" width="32px" height="26px" viewBox="0 0 46 33">
