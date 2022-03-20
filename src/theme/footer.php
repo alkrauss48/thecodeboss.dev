@@ -22,7 +22,7 @@
           <li><a class="icon-linkedin" title="LinkedIn" target="linkedin"  href="https://www.linkedin.com/in/alkrauss48/"></a></li>
           <li><a class="icon-twitter" title="Twitter" target="twitter" href="https://twitter.com/OKCWebdevs"></a></li>
           <li>
-            <a title="JSFiddle" target="jsfiddle" href="https://jsfiddle.net/user/thecodeboss/fiddles/">
+            <a class="js-fiddle-link" title="JSFiddle" target="jsfiddle" href="https://jsfiddle.net/user/thecodeboss/fiddles/">
                 <svg class="js-fiddle-icon" width="20px" height="14px" viewBox="0 0 46 33">
                     <g stroke-width="3" fill="none" fill-rule="evenodd">
                     <path d="M23.4888889,20.543316 C21.4404656,18.4187374 19.0750303,15.6666667 16.4832014,15.6666667 C13.8721947,15.6666667 11.7555556,17.6366138 11.7555556,20.0666667 C11.7555556,22.4967196 13.8721947,24.4666667 16.4832014,24.4666667 C18.8347252,24.4666667 19.9845474,23.0125628 20.6429148,22.312473" id="Oval-1" stroke-linecap="round"></path>

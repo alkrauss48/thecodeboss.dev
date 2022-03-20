@@ -756,6 +756,16 @@ hr.header-hr {
   }
 }
 
+.orange-learn-more + .orange-learn-more {
+    margin-left: 1em;
+    border-color: lighten($gray, 15%);
+    background-color: lighten($gray, 10%);
+    &:hover, &:focus {
+        color: lighten($gray, 10%);
+        background-color: white;
+    }
+}
+
 .home-projects {
   position: relative;
   .down-triangle {
@@ -1787,12 +1797,20 @@ h2.home-projects-title {
   }
 }
 
-.js-fiddle-icon {
+.js-fiddle-link {
     position: relative;
     top: 1px;
+    display: inline-block;
+
+    &:hover, &:focus {
+        .js-fiddle-icon {
+            stroke: $teal;
+        }
+    }
+}
+
+.js-fiddle-icon {
+    display: block;
     transition: all $transition-time ease;
     stroke: white;
-    &:hover, &:focus {
-        stroke: $teal;
-    }
 }
