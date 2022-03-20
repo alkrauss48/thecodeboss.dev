@@ -81,11 +81,11 @@ function hide_site_title(){
 }
 
 function activate_home_offering(){
-  $(this).closest('div').find('i').css('top', '-20px');
+  $(this).closest('div').find('img').css('top', '-10px');
 }
 
 function deactivate_home_offering(){
-  $(this).closest('div').find('i').css('top', '0px');
+  $(this).closest('div').find('img').css('top', '0px');
 }
 
 function bindFocusToSubmenu(){

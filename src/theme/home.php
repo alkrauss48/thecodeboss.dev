@@ -34,20 +34,38 @@ get_header(); ?>
     </div>
     <div class="home-content">
       <div class="container-padding">
-        <h2>I do a lot of different things</h2>
-        <h3>But learning from and teaching others is what makes me the happiest</h3>
+        <h2>I love being involved in my tech community</h2>
+        <h3>Here are some of the community organizations that I help manage and volunteer with:</h3>
         <div class="home-offerings-wrapper">
           <div class="home-offerings">
-            <div class="icon-wrapper"><i class="icon2-keyboard"></i></div>
-            <a class="development" href="<?php echo get_permalink(13); ?>">Skills</a>
+            <div class="img-wrapper teal">
+              <img src="/dist/images/okcwebdevs.png" alt="OKC WebDevs" />
+            </div>
+            <a
+                target="_blank"
+                class="development"
+                href="https://www.meetup.com/OKCWebDevs/"
+            >OKC WebDevs</a>
           </div>
           <div class="home-offerings">
-            <div class="icon-wrapper"><i class="icon2-pencil"></i></div>
-            <a class="design" href="<?php echo get_permalink(16); ?>">Blog</a>
+            <div class="img-wrapper blue">
+              <img src="/dist/images/techlahoma.png" alt="Techlahoma" />
+            </div>
+            <a
+                target="_blank"
+                class="design"
+                href="https://www.techlahoma.org/"
+            >Techlahoma</a>
           </div>
           <div class="home-offerings">
-            <div class="icon-wrapper"><i class="icon2-users"></i></div>
-            <a class="training" href="<?php echo get_permalink(1951); ?>">Talks</a>
+            <div class="img-wrapper orange">
+              <img style="width: 50%;" src="/dist/images/code-org-logo.svg" alt="Code.org" />
+            </div>
+            <a
+                target="_blank"
+                class="training"
+                href="https://code.org/"
+            >Code.org</a>
           </div>
         </div>
       </div>
