@@ -164,7 +164,7 @@ $(document).ready( function()	{
       strings: [
         "Tea Enthusiast",
         "Longboarder",
-        "Blogger",
+        "Dad",
         "Developer"
       ],
       contentType: 'html',
