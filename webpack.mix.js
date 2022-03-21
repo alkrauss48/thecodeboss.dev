@@ -4,7 +4,6 @@ let mix = require('laravel-mix');
 
 mix.sass('src/sass/app.scss', 'dist')
     .combine([
-            'src/js/globals/*',
             'src/js/vendor/*',
             'src/js/lib/*',
         ],

@@ -1,4 +1,4 @@
-if ( Detector.webgl && $('#header-wrapper').length > 0 ){
+if ( Detector.webgl && jQuery('#header-wrapper').length > 0 ){
   var container;
   var camera, scene, renderer, particles, geometry, materials = [], parameters, i, h, color, size;
   var mouseX = 0, mouseY = 0;

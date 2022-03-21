@@ -1,30 +1,30 @@
-$(document).ready( function()	{
+jQuery(document).ready( function()	{
 
-  $('#responsive-menu-icon').sidr({
+  jQuery('#responsive-menu-icon').sidr({
     name: 'sidr-main',
     source: '#navigation',
     side: 'right',
-    onOpen:   function() { $('#responsive-menu-icon').addClass('is-active'); },
-    onClose:  function() { $('#responsive-menu-icon').removeClass('is-active'); }
+    onOpen:   function() { jQuery('#responsive-menu-icon').addClass('is-active'); },
+    onClose:  function() { jQuery('#responsive-menu-icon').removeClass('is-active'); }
   });
 
-  $('body').on('click', function(event){
-    if($('body').hasClass('sidr-open') && $(event.target).parents('#sidr-main').length == 0){
-      $.sidr('close', 'sidr-main');
+  jQuery('body').on('click', function(event){
+    if(jQuery('body').hasClass('sidr-open') && jQuery(event.target).parents('#sidr-main').length == 0){
+      jQuery.sidr('close', 'sidr-main');
     }
   });
 
 });
 
 var closeSidr = function() {
-  if($('body').hasClass('sidr-open')){
-    $.sidr('close', 'sidr-main');
+  if(jQuery('body').hasClass('sidr-open')){
+    jQuery.sidr('close', 'sidr-main');
   }
 };
 
-$(window).touchwipe({
+jQuery(window).touchwipe({
   wipeRight: closeSidr,
   preventDefaultEvents: false
 });
 
-$(window).resize(closeSidr);
+jQuery(window).resize(closeSidr);
