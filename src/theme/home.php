@@ -92,8 +92,8 @@ get_header(); ?>
           <a href="https://labs.thecodeboss.dev/carnegie-chart" target="_blank" class="home-popular-list popular-item-1">
             <span>Dale Carnegie 30-Day Practice Chart</span>
           </a>
-          <a href="https://www.youtube.com/c/Techlahoma/search?query=Aaron+Krauss" target="_blank" class="home-popular-list popular-item-2">
-            <span>Techlahoma's YouTube</span>
+          <a href="<?php echo get_permalink(1951); ?>" class="home-popular-list popular-item-2">
+            <span>Talks I've Given</span>
           </a>
           <a href="/2016/07/my-interviews-with-amazon/" class="home-popular-list popular-item-3">
             <span>My Interviews with Amazon</span>
