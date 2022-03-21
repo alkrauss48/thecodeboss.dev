@@ -85,7 +85,7 @@ function setUpInfiniteScroll() {
       msgText: ""
     }
   }, function(newElements) {
-    var $newElems = $(newElements);
+    var $newElems = jQuery(newElements);
     // var $newElems = $(newElements).hide();
     // $newElems.fadeIn();
     jQuery('.blog-list').isotope('appended', $newElems);
