@@ -35,7 +35,7 @@ get_header(); ?>
     <div class="home-content">
       <div class="container-padding">
         <h2>I love being involved in my tech community</h2>
-        <h3>Here are some of the community organizations that I help manage and volunteer with:</h3>
+        <h3>Here are some of the groups that I help manage and volunteer with:</h3>
         <div class="home-offerings-wrapper">
           <div class="home-offerings">
             <div class="img-wrapper teal">
