@@ -44,7 +44,7 @@ function the_societea_setup() {
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'the_societea' ),
 	) );
-	
+
 	/*
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.
@@ -104,7 +104,10 @@ add_action( 'widgets_init', 'the_societea_widgets_init' );
 function new_excerpt_more( $more ) {
     return '...';
 }
+
 add_filter('excerpt_more', 'new_excerpt_more');
+add_filter( 'jetpack_sharing_counts', '__return_false', 99 );
+add_filter( 'jetpack_implode_frontend_css', '__return_false', 99 );
 
 /**
  * Enqueue scripts and styles.
