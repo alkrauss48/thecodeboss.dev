@@ -110,7 +110,7 @@ get_header(); ?>
                 <div aria-labelledby="home-project-label-<?php echo $index; ?>" class="home-project">
                   <div class="project-image" style="background-image: url('<?php echo $field['thumbnail']; ?>');">
                     <p id="home-project-label-<?php echo $index; ?>" class="site-title" href="#"><?php echo $field['label']; ?></p>
-                    <a class="project-hover" href="<?php echo $field['url']; ?>" target="tle"><p>Visit Site <i class="icon2-play"></i></p></a>
+                    <a class="project-hover" href="<?php echo $field['url']; ?>" target="_blank"><p>Visit Site <i class="icon2-play"></i></p></a>
                   </div>
                 </div>
               <?php endforeach; ?>
