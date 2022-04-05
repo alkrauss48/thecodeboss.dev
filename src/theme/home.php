@@ -79,7 +79,7 @@ get_header(); ?>
             <div class="home-about-desc">
               <h2>Get to know me</h2>
               <?php the_content(); ?>
-              <a class="orange-learn-more" href="<?php echo get_permalink(6); ?>">About Me <i class="icon2-play"></i></a>
+              <a class="orange-learn-more" href="/about">About Me <i class="icon2-play"></i></a>
               <a class="orange-learn-more" target="_blank" href="https://thecodeboss.dev/resume">Resume <i class="icon2-play"></i></a>
             </div>
           </div>
@@ -89,17 +89,17 @@ get_header(); ?>
         <div class="down-triangle"></div>
         <h2 class="home-projects-title">This is where you may know me from</h2>
         <div class="container">
-          <a href="https://labs.thecodeboss.dev/carnegie-chart" target="_blank" class="home-popular-list popular-item-1">
-            <span>Dale Carnegie 30-Day Practice Chart</span>
+          <a href="/blog" class="home-popular-list popular-item-1">
+            <span>My Blog Posts</span>
           </a>
-          <a href="<?php echo get_permalink(1951); ?>" class="home-popular-list popular-item-2">
-            <span>Talks I've Given</span>
+          <a href="/talks" class="home-popular-list popular-item-2">
+            <span>My Talks</span>
           </a>
-          <a href="/2016/07/my-interviews-with-amazon/" class="home-popular-list popular-item-3">
-            <span>My Interviews with Amazon</span>
+          <a href="https://labs.thecodeboss.dev" target="_blank" class="home-popular-list popular-item-3">
+            <span>My Fun Personal Projects</span>
           </a>
         </div>
-        <h2>But I built these too - and more</h2>
+        <h2>But checkout some of my featured projects</h2>
         <div class="container-padding">
           <div class="home-projects-list">
             <?php
@@ -117,7 +117,7 @@ get_header(); ?>
             <?php endif; ?>
           </div>
         </div>
-        <a class="orange-learn-more" href="<?php echo get_permalink(30); ?>">All Projects <i class="icon2-play"></i></a>
+        <a class="orange-learn-more" href="/projects">All Projects <i class="icon2-play"></i></a>
       </div>
     </div>
   <script src="/dist/three.min.js"type="text/javascript" charset="utf-8"></script>
