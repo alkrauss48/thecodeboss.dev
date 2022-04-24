@@ -111,5 +111,6 @@ jobs:
         with:
           context: .
           file: docker/frontend/Dockerfile
+          push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
