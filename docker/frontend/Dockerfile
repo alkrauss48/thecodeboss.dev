@@ -14,7 +14,7 @@ RUN node_modules/.bin/mix --production
 
 
 # Final Image
-FROM nginx:1.21.3-alpine
+FROM nginx:1.23.1-alpine
 WORKDIR /var/www/html
 
 COPY --from=wordpress-builder --chown=82:82 /usr/src/wordpress .
